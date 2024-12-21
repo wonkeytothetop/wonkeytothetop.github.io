@@ -44,7 +44,7 @@ function updateGame() {
         }
         if (monkey.drinkLevel <= 0) {
             level++;
-            monkey.drinkLevel = 100 + level * 10;
+            monkey.drinkLevel = monkey.drinkLevel + level * 2;
             timeLeft = 10;
         }
     } else {

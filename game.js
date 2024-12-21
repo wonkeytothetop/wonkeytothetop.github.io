@@ -13,7 +13,7 @@ let lastUpdateTime = Date.now();
 function drawMonkey() {
     ctx.drawImage(monkeyImg, monkey.x, monkey.y, monkey.width, monkey.height);
     ctx.fillStyle = '#000';
-    ctx.fillText('Drink Level: ' + monkey.drinkLevel + '%', monkey.x, monkey.y - 10);
+    ctx.fillText('Drink Level: ' + monkey.drinkLevel + ' sips', monkey.x, monkey.y - 10);
 }
 
 function updateGame() {
